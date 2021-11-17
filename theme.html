@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="theme.css">
+    <title>Document</title>
+ 
+</head>
+<body >
+  <label >
+    <input type="checkbox" id="switch">
+    <div class="container">
+      <div class="range">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </label>
+  <div class="text">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur quo praesentium beatae quibusdam ea eos enim odit adipisci dicta qui deserunt, saepe odio explicabo dolorum cupiditate molestiae earum, nisi iusto?</p>
+  </div>
+ <script>
+   let toggleSwitch= document.querySelector("#switch")
+   toggleSwitch.addEventListener("change",()=>{
+    document.body.classList.toggle("dark")
+   })
+ </script>
+</body>
+</html>
+
